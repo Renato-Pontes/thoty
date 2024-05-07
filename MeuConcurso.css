@@ -1,0 +1,15 @@
+/* MeuConcurso.css */
+.read-topic {
+  opacity: 0.6;
+  text-decoration: line-through;
+  color: blue;
+  /*color: var(--secondary);*/
+
+  font-size: 16px; /* Tamanho da fonte em pixels */
+}
+
+.dark .read-topic {
+  opacity: 0.6;
+  color: var(--primary);
+  font-size: 16px; /* Tamanho da fonte menor para o modo escuro */
+}
